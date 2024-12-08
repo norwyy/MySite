@@ -1,0 +1,44 @@
+.active {
+  background:darkorchid;
+}
+.carouselpic{
+  width: 400px;
+  height: 600px;
+}
+.pic{
+  width: 600px;
+  height: 600px;
+}
+.ico{
+  width: 60px;
+  height: 60px;
+}
+.pic1{
+  width: 600px;
+  height: 840px;
+}
+
+.active:hover {
+cursor: pointer;
+background: rgb(124, 0, 212);
+border-width: 4px; 
+padding: 6px; 
+box-shadow: 0 0 8px white;
+transition: all 0.17s; }
+
+.sizepic{
+height: 700px;
+width:400px;
+}
+
+.rightpic {
+float: right;
+margin: 0 0 5px 5px; 
+}
+
+[class^=col] { 
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
